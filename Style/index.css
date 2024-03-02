@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 100vh;
+    background: url('/WebSite/Images/Picture.jpg') no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 420px;
+    background: transparent ;
+    border: 2px solid rgba(255,255,255,.2);
+    color: #fff;
+    border-radius: 7ch;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 30px 0 ;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent ;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px ;
+}
+.wrapper .Remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.Remember-forgot{
+    accent-color: #fff;
+    padding: 5px ;
+    margin-right: 5px;
+}
+.Remember-forgot a{
+    color: #fff0ff;
+    text-decoration:  none;
+}
+.Remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn {
+    width: 100%; 
+    height: 35px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 17.5px;
+    color: #333;
+    font-weight: 600;
+
+}
+.wrapper .Register-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.Register-link p a:hover{
+    text-decoration: underline;
+}
