@@ -10,8 +10,9 @@ body{
     justify-content:  center;
     align-items: center;
     height: 100vh;
-    background: url('/WebSite/Images/Picture.jpg') no-repeat;
+   background-color: black ;
     background-size: cover;
+    background-image: url(/Images/Picture.jpg);
 }
 .wrapper{
     width: 420px;

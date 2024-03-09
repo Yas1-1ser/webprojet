@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+.headuniv{
+
+display: flex;
+justify-content: space-around;
+background-color: yellowgreen;
+position: static;
+top: 0;
+left: 0;
+right: 0;
+
+
+}
+.leftlogo{
+    order: 1;
+}
+.textlogo{
+    order: 2;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.rightlogo{
+    order: 3;
+}
+.headuniv img{
+    width: 150px;
+    padding: 15px;
+
+}
+.navlinks  {
+    display: flex;
+    justify-content: space-around;
+    background:transparent;
+    align-items: center;
+    background-color: aqua;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
+.page{
+    display: flex;
+    font-size: 18px;
+   
+    background: transparent;
+    justify-content: space-between;
+     justify-items:center ;
+}
+.leftbar{
+width: 20%;
+background-color: blanchedalmond;
+order :1;
+}
+.Article{
+width: 60%;
+background-color: aquamarine;
+order: 2;
+}
+.rightbar{
+width: 20%;
+background-color:saddlebrown;
+order: 3;
+
+}
+.Article .headerartic h3 {
+    text-align: center;
+    font-style: italic;
+}
+.headerartic{
+    text-decoration: underline dashed;
+}
+.Article .text{
+    padding: 15px 13px 50px;
+    margin: 13px 12px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(10, 15, 15);
+    background-color: #16F529;
+    font-weight: 600;
+}
+.footer{
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
